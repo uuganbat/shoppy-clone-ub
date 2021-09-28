@@ -1,8 +1,6 @@
 import React from "react";
 
-export default function Footer() {}
-
-datas = [
+const datas = [
   {
     name: "shoppy.mn",
     items: [
@@ -11,7 +9,11 @@ datas = [
       { name: "In App үйлчилгээ" },
       { name: "Бүтээгдэхүүн үйлчилгээ" },
       { name: "Маркетинг контент" },
-      { name: "Ажлын байр" },
-    ],
-  },
+      { name: "Ажлын байр" }
+    ]
+  }
 ];
+
+export default function Footer() {
+  return <div>Footer</div>;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../Footer/Main";
 import Header from "../../Header/Main";
 import Carousel from "./Carousel/Carousel";
 import SectionSuggest from "./SectionSuggest";
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Carousel />
       <SectionSuggest />
+      <Footer />
     </div>
   );
 }
